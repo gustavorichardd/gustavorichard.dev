@@ -136,6 +136,7 @@ export function SkillsCards() {
             <div key={index} className={styles.skillscardItem}>
               <Image
                 src={`${window.location.origin}/assets/${skill.logo}`}
+                alt={skill.name}
                 width={50}
                 height={50}
                 unoptimized
@@ -153,6 +154,7 @@ export function SkillsCards() {
           return (
             <div key={index} className={styles.skillscardItem}>
               <Image
+                alt={host.name}
                 src={`${window.location.origin}/assets/${host.logo}`}
                 width={50}
                 height={50}
@@ -175,7 +177,7 @@ export function SkillsCards() {
             >
               <Image
                 src={`${window.location.origin}/assets/${database.logo}`}
-                //  layout="fixed"
+                alt={database.name}
                 width={65}
                 height={65}
                 unoptimized
@@ -197,7 +199,7 @@ export function SkillsCards() {
             >
               <Image
                 src={`${window.location.origin}/assets/${database.logo}`}
-                //  layout="fixed"
+                alt={database.name}
                 width={65}
                 height={65}
                 unoptimized
