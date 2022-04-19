@@ -4,7 +4,7 @@ import { SkillsCards } from "../../components/SkillsCards";
 
 import styles from "../../styles/views/Home.module.scss";
 
-export function Home() {
+export default function Home() {
   return (
     <div className={styles.homeContainer}>
       <section>
